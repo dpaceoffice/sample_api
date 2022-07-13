@@ -7,7 +7,7 @@ const port = 5000;
 const routes = new Router().getRouter();
 
 function setupApp() {
-    app.use(express.static('client/build'))
+    app.use(express.static('view/build'))
     app.use(bodyParser.json());
     app.use('/', routes);
 }
