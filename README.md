@@ -3,5 +3,5 @@ basic express/react app
 
 
 ```
-cd client/ | npm start
+cd view/ | npm start
 ```
